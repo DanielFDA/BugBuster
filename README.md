@@ -1,6 +1,4 @@
-# sei project 4 - BugBuster
-
-You can check out the site [here](https://danielfda.github.io/sei-project-4/)
+# BugBuster
 
 ## Index
 * [Overview](#overview)
@@ -26,7 +24,6 @@ You can register yourself to try the website or you can use the following detail
 * email: daniel@email
 * password: pass
 
-This project is still being worked on by both me and my [duo](https://github.com/albertocerrone)
 <!-- 
 For my third project in General Assembly's Software Engineering course the task was to, in groups of 3 and in a timeframe of 9 days, develop a full-stack website, making our own back-end using a mongo database and express to handle the data and React for the front-end (using the MERN stack)
 
@@ -39,14 +36,14 @@ This project was half-way into the course and was the biggest one in terms of ti
 
 First we need to download the repository into our own machine for which we have to input the following line into our terminal or command line:
 ```bash 
-git clone https://github.com/DanielFDA/sei-project-4.git
+git clone https://github.com/DanielFDA/BugBuster.git
 ```
 
 then we need to make sure both [python](https://www.python.org/downloads/mac-osx/) & [pipenv](https://www.codingforentrepreneurs.com/blog/install-django-on-mac-or-linux) is installed.
 
 Then you'll need to install dependencies in the command line or terminal, making sure you're inside the root of the project. The address on the terminal should look something like this
 ```bash 
-~/GA/development/PROJECTS/sei-project-4
+~/GA/development/PROJECTS/BugBuster-4
 ``` 
 to install back-end dependencies, in the root of the project (folder) run `pipenv`
 
@@ -87,8 +84,6 @@ and 2. start the front-end: `yarn start`.
 * VSCode
 
 ## Approach
-
-For this project I was working with [Alberto](https://github.com/albertocerrone).
 
 The first thing we discussed after deciding for a bug tracker app was how we wanted to make it and what framework we wanted to use to style it, because we had green light to choose it as we liked. In this instance we went for Material UI because Alberto had a strong interest in using it and getting more confident with it (he had previously used it throughout the course), for this I had no objection because I had heard about it and also wanted to see how it went, even thought Alberto worked most of the styling I got to play around with some things and also by watching the code after it was styled I got to understand a lot of how Material UI works and for this I thank Alberto cuz I learned more than I thought I would about it.
 
