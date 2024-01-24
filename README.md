@@ -36,7 +36,7 @@ This project was half-way into the course and was the biggest one in terms of ti
 
 First we need to download the repository into our own machine for which we have to input the following line into our terminal or command line:
 ```bash 
-git clone https://github.com/DanielFDA/BugBuster.git
+git clone https://github.com/DanielFDA/bugbuster.git
 ```
 
 then we need to make sure both [python](https://www.python.org/downloads/mac-osx/) & [pipenv](https://www.codingforentrepreneurs.com/blog/install-django-on-mac-or-linux) is installed.
