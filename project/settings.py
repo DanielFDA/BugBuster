@@ -12,13 +12,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
-if str(os.getenv("ENVIRONMENT")) == "development":
-    SECRET_KEY = "v7urcrpixcz2olzyck4ew02ung=e44_y4a^6s4t8tsvrs=4ohl"  # should be whatever your original key was
-else:
-    SECRET_KEY = str(os.getenv("SECRET_KEY"))
-
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
