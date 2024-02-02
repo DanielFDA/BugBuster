@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 //import { useLocation } from 'react-router-dom'
 import { makeStyles } from '@material-ui/core'
-import SideBar from './sidebar/index'
+import SideBar from './SideBar/index'
 import Navbar from './NavBar'
 import { getProfile } from '../../../lib/api'
 
@@ -56,9 +56,9 @@ const Bars = () => {
 
   return (
     <>
-      {!userData ?
+      {!userData ? (
         <p>loading</p>
-        :
+      ) : (
         <>
           <div className={classes.root}>
             <Navbar onMobileNavOpen={() => setMobileNavOpen(true)} />
@@ -67,10 +67,9 @@ const Bars = () => {
               openMobile={isMobileNavOpen}
               user={userData}
             />
-
           </div>
         </>
-      }
+      )}
     </>
   )
 }

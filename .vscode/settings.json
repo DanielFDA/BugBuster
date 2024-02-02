@@ -1,14 +1,14 @@
 {
-"python.linting.pylintEnabled": true,
-"workbench.colorCustomizations": {
+  "python.linting.pylintEnabled": true,
+  "workbench.colorCustomizations": {
     "statusBar.background": "#ffffff",
-    "titleBar.activeBackground": "#0000009f",
+    "titleBar.activeBackground": "#FFFDD0",
     "titleBar.inactiveBackground": "#ffffff",
-    "statusBar.foreground": "#001d49",
+    "statusBar.foreground": "#FFFDD0",
     "titleBar.inactiveForeground": "#001d49",
-    "titleBar.activeForeground": "#ff8686",
-    },
-"window.title": "🎠🎠 The Two Muskeeters 🎠🎠",
-"python.formatting.provider": "black",
+    "titleBar.activeForeground": "#ff8686"
+  },
+  "window.title": "🎠🎠 The Two Muskeeters 🎠🎠",
+  "python.formatting.provider": "black"
 }
 // ff8686 pink

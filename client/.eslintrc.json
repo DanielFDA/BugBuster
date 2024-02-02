@@ -1,0 +1,22 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": 2022, // Adjust this to the ECMAScript version you are using
+    "sourceType": "module"
+  },
+  "extends": ["eslint:recommended"],
+  "settings": {
+    "react": {
+      "version": "16.8.4"
+    }
+  },
+  "rules": {
+    "no-unused-vars": "off", // Disable 'no-unused-vars' rule
+    "react/prop-types": "off" // Disable 'react/prop-types' rule
+    // Add more rules here to disable them
+  }
+}
